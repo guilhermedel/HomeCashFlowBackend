@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ae6gf6SFbDM78bnvzGnhPWBzRnL92YLwtKV1/wJlZQk6RxPDcPJYnQ7cAHIjYz385uw7bSuG9JacqEkFlffveg==",
+  "dgSpecHash": "/GOax+ltmUDQYNm0kZPVO5hEM7WSEod3DQmJuekWh5DCHMJE6PNQQpT1UwVlULxtdcdfz7cjYwHUyKj9AYjKnw==",
   "success": true,
   "projectFilePath": "/home/guiherme/Documentos/HomeCashFlowBackend/HomeCashFlowBackend.csproj",
   "expectedPackageFiles": [
     "/home/guiherme/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/home/guiherme/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
+    "/home/guiherme/.nuget/packages/flunt/2.0.5/flunt.2.0.5.nupkg.sha512",
     "/home/guiherme/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/guiherme/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/home/guiherme/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",

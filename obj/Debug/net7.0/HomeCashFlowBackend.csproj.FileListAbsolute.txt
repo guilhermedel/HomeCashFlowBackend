@@ -96,3 +96,4 @@
 /home/guiherme/Documentos/HomeCashFlowBackend/obj/Debug/net7.0/HomeCashFlowBackend.pdb
 /home/guiherme/Documentos/HomeCashFlowBackend/obj/Debug/net7.0/HomeCashFlowBackend.genruntimeconfig.cache
 /home/guiherme/Documentos/HomeCashFlowBackend/obj/Debug/net7.0/ref/HomeCashFlowBackend.dll
+/home/guiherme/Documentos/HomeCashFlowBackend/bin/Debug/net7.0/Flunt.dll

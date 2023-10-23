@@ -5,13 +5,25 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDbContext>();
 var app = builder.Build();
 
-app.MapGet("/user", (AppDbContext context) => {
-    var users=context.costumerModels.ToList();
+app.MapGet("/user", (AppDbContext context) =>
+{
+    var users = context.costumerModels.ToList();
     return Results.Ok(users);
 });
 
-app.MapPost("/user",(CostumerModel costumerModel)=>{
-
+app.MapPost("/user", (CostumerModel costumerModel, AppDbContext context) =>
+{
+    CostumerModel users = new CostumerModel
+    {
+        Name = costumerModel.Name,
+        Email = costumerModel.Email,
+        Cpf = costumerModel.Cpf,
+        // PhoneNumber=costumerModel.PhoneNumber,
+        // BirthDate=costumerModel.BirthDate,
+        // Password=costumerModel.Password,
+        // Balance=costumerModel.Balance
+    };
+    
 });
 
 app.Run();
