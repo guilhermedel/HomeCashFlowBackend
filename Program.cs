@@ -1,3 +1,4 @@
+using HomeCashFlowBackend.Controllers;
 using HomeCashFlowBackend.Data;
 using HomeCashFlowBackend.Models;
 
@@ -11,7 +12,7 @@ app.MapGet("/user", (AppDbContext context) =>
     return Results.Ok(users);
 });
 
-app.MapPost("/user", (CostumerModel costumerModel, AppDbContext context) =>
+app.MapPost("/user", (CostumerModel costumerModel,CostumerController costumerController, AppDbContext context) =>
 {
     CostumerModel users = new CostumerModel
     {
@@ -23,6 +24,7 @@ app.MapPost("/user", (CostumerModel costumerModel, AppDbContext context) =>
         // Password=costumerModel.Password,
         // Balance=costumerModel.Balance
     };
+    var userValidation=new CostumerController(users,context);   
     
 });
 
